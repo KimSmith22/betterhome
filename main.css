@@ -1,0 +1,35 @@
+html{
+    font-family: "Nunito";
+}
+.tag{
+    width: 20em;
+}
+.tag2{
+    height: 10em;
+}
+.tag3{
+    margin-top: 1.2em;
+    font-size: 2em;
+}
+.navItem{
+    font-size: 1.5em;
+    margin-left: 8em;
+    color: rgb(114, 250, 114) !important;
+}
+.home{
+    margin-top: -3em;
+    width: 1365px;
+    height: 200px;
+}
+.tagline{
+    margin-top: -3em;
+    color: white;
+    font-size: 2.5em;
+}
+.about{
+    font-size: 1.125em;
+    line-height: 1.6875em;
+}
+.aboutText{
+    border-bottom: solid .75px lightgreen;
+}
