@@ -1,25 +1,53 @@
+html
+body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+    background-color: whitesmoke;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: whitesmoke;
+}
 html{
     font-family: "Nunito";
 }
 .tag{
-    width: 20em;
+    width: 10em;
+}
+.contactLinks{
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.navbar-toggle{
+    background-color: #38aef3;
+}
+.navItem{
+    font-size: 1.25em;
+    margin-left: 5em;
+}
+.selected{
+    background-color: cornflowerblue;
+    color: white;
 }
 .tag2{
     height: 10em;
 }
 .tag3{
-    margin-top: 1.2em;
-    font-size: 2em;
+    margin-top: 1em;
+    font-size: .8em;
+    text-align: right;
+    margin-right: 4em;
 }
-.navItem{
-    font-size: 1.5em;
-    margin-left: 8em;
-    color: rgb(114, 250, 114) !important;
+.hero{
+    height: inherit;
 }
 .home{
     margin-top: -3em;
-    width: 1365px;
-    height: 200px;
 }
 .tagline{
     margin-top: -3em;
@@ -27,9 +55,79 @@ html{
     font-size: 2.5em;
 }
 .about{
-    font-size: 1.125em;
-    line-height: 1.6875em;
+    font-size: 1.025em;
+    line-height: 1.5em;
 }
-.aboutText{
-    border-bottom: solid .75px lightgreen;
+.card-header{
+    font-weight: bold;
+    background-color: #38AEF3;
+}
+.card{
+    width: 95%;
+}
+.header {
+    font-size: 27px;
+    padding: 10px;
+}
+.form-horizontal{
+    background-color: #f1f1f1;
+    box-shadow: 10px 10px 5px grey;
+}
+.bigicon {
+    font-size: 35px;
+    color: black;
+}
+.content{
+    margin-top: 1em;
+}
+.tab{
+    text-indent: 5px;
+}
+.footer{
+    font-size: 12px;
+    font-weight: 100;
+    background-color: #38aef3;
+}
+.fb{
+    width: 1.5em;
+    margin-top: -1em;
+}
+.orgs{
+    list-style: none;
+}
+.btn-primary{
+    background-color: #38AEF3;
+}
+ul.chex{
+    list-style: none;
+}
+ul.chex li:before {
+    content:"\2713\0020";
+    color: #38AEF3;
+    font-weight: bold;
+    font-size: 10px;
+}
+ul.chex li{
+    font-size: 11px;
+}
+.card-body{
+    background-color: #f1f1f1;
+}
+.g{
+    background-color: darkblue;
+    width: 100%;
+}
+.request{
+    padding: 8px;
+    background-color: skyblue;
+}
+.cardContainer{
+    text-align: center;
+    padding: 10px 20px;
+}
+.polaroid{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 25px;
 }

@@ -6,83 +6,172 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
     <title>Better Living Home Health</title>
     <meta name="description" content="Better Living Home Health provides home care assistance for residents in Southeasre Michigan who are recovering from falls, accidents, surgeries, and injuries."/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Roboto:400,400i,700,700i|Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Roboto:400,400i,700,700i|Material+Icons">
     <script src="https://use.fontawesome.com/8fa0f02e88.js"></script>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    <div class="">
-        <header class="">
-            <div class="row">
-                <div class="text-center col-lg-6">
-                    <img class="tag" src="img/logo.png" alt="">
-                </div>
-                <div class="text-center col-lg-6">
-                    <div class="tag3">
-                        <div class="message">To Speak With A Care Advisor:</div>
-                        <div class="phone"><a href="tel:800-800-8080">Call: (800)800-8080</a></div>
+<body class="box-shadow">
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+                        <a href="https://www.betterlivinghomehealth.com"><img class="tag image-responsive " src="img/logo.png" alt="logo"></a>
+                    </div> 
+                    <div class="col-xs-8 col-sm-12 col-md-10 col-lg-10">
+                        <div class="row contactLinks">
+                            <div class="col-xs-12 text-right">
+                                <i class="fa fa-phone" aria-hidden="true"></i> 1-800-553-0723
+                            </div>
+                            <div class="col-xs-12 text-right">
+                                <a href="mailto:info@betterlivinghomehealth.com" data-toggle="modal" data-target="#mail-popup"><i class="fa fa-envelope" aria-hidden="true"></i> info@betterlivinghomecare.com</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="myNavbar">
+                                    <ul class="nav navbar-nav">
+                                        <li>
+                                            <a class="navItem selected" href="index.html">Welcome</a>
+                                        </li>
+                                        <li>
+                                            <a class="navItem" href="#">About</a>
+                                        </li>
+                                        <li>
+                                            <a class="navItem" href="#">Services</a>
+                                        </li>
+                                        <li>
+                                            <a class="navItem" href="#">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a class="navItem" href="index.html">Welcome</a>
-                        </li>
-                        <li>
-                            <a class="navItem" href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a class="navItem" href="services.html">Services</a>
-                        </li>
-                        <li>
-                            <a class="navItem" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <section>
-            <img class="home" src="img/livingRoom2.1.jpg" alt="">
-        </section>
-        <section class="container">
-            <div class="row">
-                <div class="col-sm-9 aboutText">
-                    <img src="img/injuredMan.jpg" alt="Image" style="float: left; margin: 4px 10px 0px 0px;">
-                    <h2>
-                        Do you have an injury from an auto accident, fall, or work-related injury? We understand how an
-                        injury can disrupt life and make the smallest task seem impossible to accomplish.
-                    </h2>
-                    <p class="about">
-                        At Better Living Home Health Care, we understand the importance of assistance with every-day activities, and the need for
-                        extra support for your loved ones who care for you while recovering from an accident or surgery.  A professional caregiver can 
-                        speed recovery and help you and your loved ones cope with your injury until you are feeling better.
-                        <br>
-                        Part of recovery from any kind of trauma is the ability to fully rest and recover. Many of us have family and other obligations
-                        that need to be handled, even when we are ill. Life’s commitments and responsibilities don’t stop for these situations, which
-                        can make things even more stressful. It’s important to let go of as much as you can and let someone else take care of things
-                        in order to allow you to get the rest you need.
-                        <br>
-                        In-home care assistance can be a valuable asset during this time of recovery. Getting the help you need at home allows you
-                        or your loved one to rest and experience a speedier, stress-free recovery at home.
-                    </p>
-                </div>
-                <div class="col-sm-3">
-
-                </div>
-            </div>
-        </section>
     </div>
+        <div class="row container">
+            <div class="col-sm-5">
+               <form class="request" action="/webformmailer.php" method="post" enctype="text/plain">
+                    <h3 class="text-center">Service Request Form</h3>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="phone" class="form-control" placeholder="Phone Number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="select">Patient's Gender</label>
+                                <select class="form-control">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <textarea class="form-control" id="textArea" cols="15" rows="5" placeholder="Tell Us About Your Needs"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <textarea class="form-control" id="textArea" cols="15" rows="3" placeholder="Address"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <textarea class="form-control" id="textArea" cols="15" rows="3" placeholder="Special Requests"></textarea>
+                            </div>
+                            <button type="submit" name="send" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+                    </div>
+               </form>
+            </div>
+            <div class="col-sm-7">
+                <div class="polaroid">
+                    <img src="" alt="" style="width:100%">
+                    <div class="cardContainer">
+                        <p>Personalized Care in Your Home</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            text here
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
 
+            </div>
+            <div class="col-sm-4">
+            
+            </div>
+            <div class="col-sm-4">
+            
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+        
+            </div>
+            <div class="col-sm-4">
+        
+            </div>
+            <div class="col-sm-4">
+        
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container"
+                <div class="row">
+                    <div class="col-sm-4">
+
+                    </div>
+                    <div class="col-sm-4">
+
+                    </div>
+                    <div class="col-sm-4">
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copy">
+            <div class="text-center container">
+                <div>&copy;2017 betterlivinghomehealth.com  All Rights Reserved</div>
+            </div>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
